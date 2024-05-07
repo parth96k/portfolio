@@ -1,0 +1,539 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body{
+    background-color: #1f1f1f;
+}
+
+
+.logo-image{
+    width: 3.5rem;
+}
+
+
+.fa-bars{
+    font-size: 2rem;
+    color: #28e98c;
+}
+#navbar-move{
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    background-color: #1f1f1f;
+}
+
+#navbar-move.sticky {
+    background-color: #2b2b2b;
+}
+.nav-item{
+    color: #ffffff;
+    position: relative;
+}
+
+.nav-item:hover{
+    color: #28e98c;
+}
+
+.header-first-section{
+    padding-top: 10rem;
+}
+
+.header-first-name ,.header-first-paragraph ,.header-first-button {
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+
+.header-first-name {
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+
+  
+.header-first-paragraph ,.auto-type{
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+
+.header-first-button a{
+    color: #000000;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #28e98c;
+}
+.bottom-first-button{
+    color: #000000;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #28e98c;
+}
+
+.header-first-button a:hover{
+    color: #ffffff;
+    border: 1px solid  #28e98c;
+    transition: 10ms all;
+}
+.bottom-first-button:hover{
+    color: #ffffff;
+    border: 1px solid  #28e98c;
+    transition: 10ms all;
+    background-color: #28e98c;
+}
+
+
+
+.about-section{
+    padding-top:7rem;
+}
+
+.about-heading,.education-heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.about-paragraph{
+    padding-top: 10px;
+    opacity: 0.9;
+}
+
+.about-contact{
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding-bottom: 1rem;
+}
+
+.about-contact-list{
+    opacity: 0.8;
+}
+.personal-detail-list{
+    color: #28e98c;
+}
+.my-photo-div{
+    width: 70%;
+    margin: 0 auto;
+}
+.my-photo-div img{
+  border-radius: 50%;
+}
+.my-photo-div img:hover{
+    box-shadow: 5px 6px 14px rgba(252, 252, 252, 0.423);
+    transition: 200ms;
+}
+.education-name{
+    border: 1px solid #909593;
+}
+
+.education-container{
+    position: relative;
+}
+
+.education-time{
+    position: absolute;
+    top: -6%;
+    background-color: #28e98c;
+    z-index: 1;
+}
+
+.education-section{
+    padding-top: 7rem;
+}
+
+.education-detail-list{
+    color: #28e98c;
+    text-transform: uppercase;
+}
+
+.skill-section{
+    padding-top: 7rem;
+}
+.skill-image-div{
+    border: 1px solid #28e98c;
+    border-radius: 20%;
+}
+.skill-image-div img{
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+.skill-image-div img:hover{
+    transform: scale3d(1.1,1.1,1);
+    transition: 300ms;
+}
+  
+.project-section{
+    padding-top: 7rem;
+}
+.project-box{
+    border: 1px solid #28e98c;
+    border-radius: 1rem;
+}
+.project-border-div{
+    width: 100%;
+    height: 15rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-border-div a img{
+    object-fit: cover;
+    object-position: top;
+    transition: 3s all;
+}
+
+.project-border-div a img:hover{
+    transition: 3s all;
+    object-position: bottom ;
+}
+.tech-used{
+    background-color: #28e98c;
+    margin-right: 5px;
+    padding: 3px 5px;
+    border-radius: 10%;
+    font-size: 0.75rem;
+}
+
+.fa-eye{
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.contact-me-section{
+    padding-top: 7rem;
+}
+#form-name,#form-email,#form-message,#form-number{
+    width: 100%;
+    background: transparent;
+    border-bottom:1px solid #28e98c;
+    color: #ffffff;
+}
+.form-input-class{
+    margin-bottom: 3rem;
+}
+
+#form-message{
+    color: #ffffff;
+    height: 10rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    resize: none;
+}
+#form-name::placeholder,#form-email::placeholder,#form-number::placeholder{
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 1.2rem;
+    background-color: transparent;
+}
+.form-message-span{
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+    
+.social-div{
+    width: 80%;
+}
+
+.social-div .social-div-inner{
+    width: 3rem;
+    height: 3rem;
+    background-color: #28e98c;
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-facebook-f{
+    font-size: 2rem;
+    color: #000000;
+  
+}
+.fa-linkedin-in{
+    font-size: 2rem;
+    color: #000000;
+}
+.fa-instagram{
+    font-size: 2rem;
+    color: #000000;
+}
+.fa-github{
+    font-size: 2rem;
+    color: #000000;
+}
+
+#end-name{
+    color: #28e98c;
+}
+
+
+@media (min-width:768px){
+    .header-first-section{
+        padding-top: 15rem;
+        padding-bottom: 5rem;
+    }
+    .wave {
+        animation-name: wave-animation;
+        animation-duration: 2.5s;      
+        animation-iteration-count: infinite;  
+        transform-origin: 70% 70%;    
+        display: inline-block;
+        font-size: 2rem;
+        position: relative;
+        top: -3rem;
+      }
+      
+      @keyframes wave-animation {
+          0% { transform: rotate( 0.0deg) }
+         10% { transform: rotate(14.0deg) } 
+         20% { transform: rotate(-8.0deg) }
+         30% { transform: rotate(14.0deg) }
+         40% { transform: rotate(-4.0deg) }
+         50% { transform: rotate(10.0deg) }
+         60% { transform: rotate( 0.0deg) } 
+        100% { transform: rotate( 0.0deg) }
+      }
+    .header-first-paragraph ,.auto-type{
+        font-size: 2rem;
+    }
+
+    .myphoto-section{
+        width: 60%;
+        margin-right: 3rem;
+    }
+
+    .my-photo-div{
+        padding-top: 2rem;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .personal-detail-div{
+        padding-top: 2rem;
+    }
+    .about-section{
+        padding-top: 7rem;
+    }
+    .education-container{
+        position: static;
+    }
+    
+    .education-time{
+        position: static;
+        height: 2.5rem;
+    }
+    .education-name{
+         height: 40px;
+         width: 60%;
+         overflow: hidden;
+    }
+
+    .education-name-after{
+        height: 180px;
+        transition: 1.5s ease-in-out;
+    }
+    .plus-minus{
+        font-size: 1rem;
+        padding: 11px 14px;
+        background-color: #363636;
+        color: #ffffff;
+    }
+
+    .line-div{
+        margin-top: 1.2rem;
+        width: 3rem;
+        border-top: 1px dashed white;
+    }
+    .social-div{
+        width: 40%;
+    }
+}
+@media (min-width:992px){
+    .logo-image{
+        width: 4rem;
+    }
+    .nav-link{
+        font-size: 1.12rem;
+    }
+    .nav-item::after{
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        height: 3px;
+        width: 85%;
+        transition: 0.3s;
+        transition-timing-function: ease-in-out;
+        border-radius: 1.56rem;
+        background: #28e98c;
+        transform: scaleX(0);
+    }
+    .nav-item:hover::after{
+        transform: scaleX(1);
+    }
+    .header-first-section{
+        padding-top: 12rem;
+        padding-bottom: 8rem;
+    }
+    .header-first-name{
+        font-size: 5rem;
+    }
+    .header-first-paragraph ,.auto-type{
+        font-size: 2.5rem;
+    }
+    .header-first-button,.bottom-first-button{
+        font-size: 1.5rem;
+    }
+    .personal-detail-div{
+        width: 50%;
+        padding-top: 2rem;
+    }
+    .my-photo-div{
+        width: 55%;
+    }
+    .myphoto-section{
+        width: 50%;
+        margin-right: 3rem;
+    }
+    .about-heading,.education-heading{
+        font-size: 3.5rem;
+    }
+    .about-contact{
+        font-size: 2rem;
+    }
+    .personal-detail-list{
+        font-size: 1.1rem;
+    }
+    .about-contact-list li{
+        font-size: 1.1rem;
+    }
+    .about-paragraph{
+        padding: 10px 2rem 0;
+    }
+    .education-section{
+        padding-top: 7rem;
+    }
+    .education-time{
+        position: static;
+        height: 3.5rem;
+    }
+    .education-name{
+        height: 55px;
+   }
+   .education-name-after{
+    height: 200px;
+    transition: 1.5s ease-in-out;
+    }
+   .plus-minus{
+    font-size: 1.6rem;
+    padding: 14px 18px;
+}
+.line-div{
+    margin-top: 1.5rem;
+    width: 4rem;
+    border-top: 1px dashed white;
+}
+}
+@media (min-width:1200px){
+
+    .header-first-section{
+        padding-top: 15rem;
+        padding-bottom: 10rem;
+    }
+    .header-first-name{
+        font-size: 6.25rem;
+    }
+    .wave{
+        font-size: 2.5rem;
+        top: -4rem;
+    }
+    .header-first-paragraph ,.auto-type{
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+    }
+    .header-first-button,.bottom-first-button{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    .my-photo-div{
+        width: 50%;
+    }
+    .about-section{
+        padding-top: 8rem;
+    }
+    .about-heading,.education-heading{
+        font-size: 3.5rem;
+    }
+    .about-contact{
+        font-size: 2rem;
+    }
+    .personal-detail-list{
+        font-size: 1.5rem;
+    }
+    .about-contact-list li{
+        font-size: 1.5rem;
+    }
+    .about-paragraph{
+        font-size: 1.1rem;
+    }
+    .about-paragraph{
+        padding: 10px 2rem 0;
+    }
+    .education-time{
+        height: 4.6rem;
+    }
+    .education-time p{
+        font-size: 1.3rem;
+    }
+    .education-name{
+        height: 79.2px;
+   }
+   .education-name-after{
+    height: 200px;
+    transition: 0.5s ease-in-out;
+    }
+   .plus-minus  {
+    font-size: 2rem;
+    padding: 22px 25px;
+}
+
+.line-div{
+    margin-top: 2.3rem;
+    width: 5rem;
+    border-top: 1px dashed #d6e0e0;
+}
+.social-div{
+    width: 25%;
+}
+.contact-me-section{
+    padding-top: 7rem;
+}
+}
